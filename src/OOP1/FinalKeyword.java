@@ -1,3 +1,5 @@
+package OOP1;
+
 final public class FinalKeyword {
     public static void main(String[] args) {
         final int a = 1002;
@@ -5,9 +7,9 @@ final public class FinalKeyword {
         final int[] arr ={5,4,5,4,5};
         arr[0]=35;
 //        arr = new int[]{45, 5, 2};
-//    final ClassA student1 = new ClassA();
+//    final OOP1.ClassA student1 = new OOP1.ClassA();
 //    student1.name="ss";
-//    student1 =new ClassA();
+//    student1 =new OOP1.ClassA();
 
 
 }}

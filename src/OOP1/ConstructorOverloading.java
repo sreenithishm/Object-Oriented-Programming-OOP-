@@ -1,4 +1,6 @@
-public class CallingOneFromOtherConstructor {
+package OOP1;
+
+public class ConstructorOverloading {
     public static void main(String[] args) {
 
 //    Students[] student = new Students[10];
@@ -6,7 +8,13 @@ public class CallingOneFromOtherConstructor {
         students student2 = new students("Rahul", 69, 86.45);
 
         System.out.println(student1.name);
+        student1.greeting();
+        System.out.println(student1.rollno);
+        System.out.println(student1.mark);
         System.out.println(student2.name);
+        student2.greeting();
+        System.out.println(student2.rollno);
+        System.out.println(student2.mark);
 
     }
 
@@ -21,7 +29,9 @@ public class CallingOneFromOtherConstructor {
         }
 
         students() {
-        this("Unknown",01,95.66);
+            name = "Nithish";
+            rollno = 34;
+            mark = 99;
         }
 
         students(String name, int rollno, double mark) {

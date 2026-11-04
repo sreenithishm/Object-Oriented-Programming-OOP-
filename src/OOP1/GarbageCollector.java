@@ -1,3 +1,5 @@
+package OOP1;
+
 public class GarbageCollector {
     public static void main(String[] args) {
         object name1;
